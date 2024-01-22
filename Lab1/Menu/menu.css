@@ -1,0 +1,26 @@
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    font-size: 50px;
+    list-style-type:none ;  
+}
+li a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 300px;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+a:active{
+    color: green;
+}
