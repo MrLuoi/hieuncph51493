@@ -29,12 +29,11 @@
             <input type="text" class="contact-phone" placeholder="Contact Phone"><br>
             <input type="text" class="email" placeholder="Email"><br>
             <input type="text" class="idea" placeholder="Let's talk about your idea"><br>
-            <div class="file">
-                <input type="file" placeholder="Upload Additional file">
+            <label class="file" for="upload">
+                <input type="file" id="upload" hidden placeholder="Upload Additional file">
                 <img src="./img/upload.png" alt="upload">Attach file. File size of your documents should not exceed 10MB
-                <!-- <p class="b">Attach file. File size of your documents should not exceed 10MB</p> -->
-            </div>
-            <input class="checkbox" type="checkbox">
+            </label>
+            <input class="checkbox" type="checkbox">   
             <label for="cmt">I want to protect my data by signing an NDA</label><br>
             <button class="submit" type="submit">Submit</button>
             </form>
