@@ -1,0 +1,185 @@
+.container {
+    max-width: 1400px;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #55557A;
+}
+
+.logo {
+    width: 202px;
+    height: 33px;
+    flex-shrink: 0;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.menu-list {
+    display: flex;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 43px;
+    text-decoration: none;
+}
+
+.sign-in {
+    background: #fff;
+    border: none;
+    color: #55557A;
+}
+
+.btn-group {
+    gap: 67px;
+    display: flex;
+}
+
+.contact {
+    width: 150px;
+    height: 50px;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 47px;
+    background: #7F56D9;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    color: #fff;
+}
+
+.tomorrow {
+    color: #EF670D;
+}
+
+.skills-today {
+    color: #7F56D9;
+}
+
+h1 {
+    color: #06241B;
+    font-size: 90px;
+    font-style: normal;
+    font-family: 'Caladea', serif;
+    max-width: 1300px;
+}
+
+.text {
+    text-align: center;
+    justify-items: center;
+
+}
+
+p {
+
+    color: #7E7EAA;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 160% */
+}
+
+.join {
+    display: flex;
+    gap: 68px;
+    text-align: center;
+    margin-left:520px;
+
+}
+
+.instructor {
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background: #FF6905;
+    color: #fbfbfb;
+}
+
+.student {
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background: #7F56D9;
+    color: #fbfbfb;
+}
+.menu{
+    max-width: 1400px;
+    border-radius: 50px;
+    background: #EBEBF54D 30%;
+}
+.text-menu{
+    gap: 10px;
+}
+h3{
+font-size: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #06241B;
+margin-left: 100px;
+}
+.popular{
+    color: #7F56D9;
+}
+.let{
+    margin-left: 100px;
+    color: #7E7EAA;
+}
+.product-list{
+    border-radius: 30px;
+    background: #fff;
+   width: 520px;
+   height: 610px;
+   
+}
+.cmt-star{
+    display: flex;
+    justify-content: space-between;
+}
+.cmt{
+    display: flex;
+}
+footer {
+    background-color: #7f56d9;
+    color: #fff;
+  }
+  
+  .footer {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .company-info {
+    max-width: 477px;
+  }
+  
+  .lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .lesson-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .lesson-text {
+    font-size: 16px;
+    font-weight: 600;
+  }
